@@ -51,8 +51,7 @@ public class Runner {
 		}				
 	}
 	
-	/*
-	*public static int initBussen(){
+	public static int initBussen(){
 		Bus bus1=new Bus(Lijnen.LIJN1, Bedrijven.ARRIVA, 1);
 		Bus bus2=new Bus(Lijnen.LIJN2, Bedrijven.ARRIVA, 1);
 		Bus bus3=new Bus(Lijnen.LIJN3, Bedrijven.ARRIVA, 1);
@@ -95,8 +94,7 @@ public class Runner {
 		addBus(10, bus20);	
 		return Collections.min(busStart.keySet());
 	}
-	*/
-
+	
 	public static void main(String[] args) throws InterruptedException {
 		int tijd=0;
 		int volgende = initBussen();
